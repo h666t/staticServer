@@ -1,0 +1,21 @@
+{
+  "name": "tndServer",
+  "bin": {
+    "ser": "ls/cli.ts"
+  },
+  "files": [
+    "ls/api.ts",
+    "ls/cli.ts",
+    "ls/db",
+    "index.ts"
+  ],
+  "version": "0.0.1",
+  "main": "index.ts",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^14.0.27"
+  },
+  "dependencies": {
+    "commander": "^6.0.0"
+  }
+}
